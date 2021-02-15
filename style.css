@@ -1,0 +1,115 @@
+body{
+    font-size: 16px;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color: #B51F1F;
+    margin:0;
+}
+/*стили для меню*/
+.menu{
+    background-color: #259055;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding:10px 20px;
+    font-size: 20px;
+}
+/*стили для шапки сайта*/
+.header{
+    text-align: center;
+    background-image: url(images/background.jpg);
+    padding: 200px 0;
+    position: relative;
+}
+.header h1{
+    padding-right: 400px;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+.header p{
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+}
+/*стили для блока "факты"*/
+.facts{
+    background-color: #7AB27D;
+    padding: 50px 0;
+}
+.facts li{
+    padding: 10px;
+}
+.fact_odd{
+    font-weight: bold;
+}
+.fact_even{
+    font-style:italic;
+}
+
+/*стили для галереи*/
+.gallery{
+    padding: 50px 0;
+}
+.images{
+    text-align: center;
+}
+.images img{
+    margin: 20px;
+    border: 3px solid;
+}
+#img1{
+    border-color:red;
+}
+#img2{
+    border-color: blue;
+}
+#img3{
+    border-color: green;
+}
+#img4{
+    border-color:yellow;
+}
+
+/*стили для блока "Напишите нам"*/
+
+.feedback{
+    padding: 50px 0;
+    background-color: #7AB27D;
+}
+.feedback form{
+    width: 500px;
+    margin:20px auto;
+    border:3px double green;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+input, select, textarea {
+    width: 300px;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 10px;
+    border: 2px solid #1abc9c;
+    background-color: #fff;
+    color: #000;
+    outline: none;
+    border-radius: 8px;
+}
+label{
+    font-size: 20px;
+    display: block;
+}
+input[type=submit]{
+    background-color: #B51F1F;
+}
